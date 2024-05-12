@@ -3,6 +3,7 @@ import numpy as np
 number = np.random.randint(1, 101) # загадываем число
 count = 0 # количество попыток
 
+
 while True:
     count += 1
     predict_number = int(input('Какое число загадано от 1 до 100? Введите сюда: '))
